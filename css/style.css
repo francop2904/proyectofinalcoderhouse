@@ -1,0 +1,328 @@
+/* font-family: 'Tilt Warp'; */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Oswald', sans-serif;
+    
+    
+}
+
+header{
+    background-color:  #850010;
+    color: white;
+}
+header a { 
+    text-decoration: none;
+
+}
+
+.enviosGratisText{
+    color: white;
+    font-size: 17px;
+    padding-top: 5px;
+
+
+}
+
+
+.logotipo {
+
+
+   background-color: white  ;
+
+   
+
+}
+.logotipo a  h1{
+    font-family: 'Tilt Warp';
+    color: #850010;
+   
+    
+
+
+}
+
+.barraDeNavegacion{
+    background-color: white;
+    font-size: 30px;
+    width: 100%;
+    
+    
+}
+.barraDeNavegacion a{
+    text-decoration: none;
+    color: black;
+
+}
+.BlackBoxEspacio{
+    margin:7px; 
+}
+
+
+
+
+.mainEditIndex{
+    display: flex;
+
+ flex-wrap: wrap;
+    height: 95vh;
+    background-size: cover;
+    font-family: 'Tilt Warp';
+    color: white;
+    justify-content: center;
+ 
+    
+   
+ }
+
+ 
+ .mainEditIndex h1{
+margin-top: 100px;
+    font-size: 60px;
+    border: 3px solid;
+    padding: 10px 5px;
+    backdrop-filter: blur(10px);
+ 
+ 
+ } 
+
+
+ .navbarDesplegable{
+   border: 5px solid black;
+  
+ }
+ .EstilosListaNavDesplegable{
+    font-size: 25px;
+ }
+
+
+
+
+@media screen and (max-width:576px) {
+   .barraDeNavegacion a {
+    display: none;
+
+    }
+    .mainEditIndex{
+        align-items: center;
+    }
+    .mainEditIndex h1{
+        font-size: 30px;
+        padding: 5px;
+    }
+  
+   
+}
+
+@media (min-width:577px) and (max-width:1300px){
+    .carousel-inner img {
+    
+        max-height: 700px;
+    }
+    
+    .carousel-inner{
+     height: 700px;
+    }
+    .carousel .slide{
+        height: 700px;
+        max-height: 700px;
+    }
+}
+.mainNuestrosProductos{
+    
+      
+       background-color:#e0ab69;
+    
+       color: white;
+   
+ }
+ .mainNuestrosProductosTitulo h2{
+    font-size: 40px;
+  
+ }
+ .mainNuestrosProductosTitulo img{
+    margin-left: 40px;
+ }
+ .mainBlackBox{
+    
+      
+    background-color:#e0ab69;
+ 
+    color: white;
+
+}
+.mainBlackboxTitulo h2{
+ font-size: 50px;
+
+}
+.mainBlackboxTitulo img{
+ margin-left: 100px;
+}
+
+
+ 
+
+ .cardEstilos {
+    border:solid 1px #59473C;
+ }
+
+ @media (max-width:576px){
+    .mainNuestrosProductos img{
+        width: 60px;
+        height: 60px;
+        margin: 6px;
+
+    }
+    .mainNuestrosProductosTitulo h2{
+        font-size: 30px;
+       
+
+    }
+    .mainNuestrosProductosTitulo h4{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+ }
+
+ .botonComprarProducto{
+   background-color: rgb(194, 149, 27);
+   text-decoration: none;
+   color: white;
+   border-radius: 30px;
+   padding: 8px;
+ }
+
+
+ /* ESTILOS PAGINA BLACK BOX */
+ .mainBlackBox{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+       font-family: 'Holtwood One SC', serif;
+       display: flex;
+       flex-flow: column wrap;
+       align-items: center;
+       justify-content: center;
+       background-color: rgb(168, 168, 168);
+       height: 145px;
+ }
+ .mainBlackBox h3{
+    font-size: 20px;
+    display: flex;
+    flex-flow: row wrap;
+ }
+ .sectionDiferentesBlackBox{
+    display: flex;
+    flex: column ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 100px;
+ }
+ .InformacionDeBlackBox{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0 15px 0;
+ 
+ 
+    
+ }
+ /* ESTILOS DADOS A LA PAGINA NOSOTROS */
+ .mainNosotros{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+       font-family: 'Holtwood One SC', serif;
+       display: flex;
+       flex-flow: column wrap;
+       align-items: center;
+       justify-content: center;
+       background-color: rgb(0, 0, 0);
+       height: 145px;
+ 
+ }
+ .mainNosotros h3{
+    font-size: 20px;
+    display: flex;
+    flex-flow: row wrap;
+ 
+ }
+ .nuestraHistoriaNosotros h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+ 
+ }
+ .tituloDondeNosEncontrasMapa{
+       margin-left: 100px;
+    margin-top: 40px;
+ }
+ .boxSizingpropiedad{
+    box-sizing: border-box;
+ }
+
+ /* ESTILOS CONTACTO */
+ .tituloContactoPreguntasF{
+    text-align: center   ;
+ }
+ .sectionPreguntasFrecuentes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   align-items: center;
+   
+    
+ }  
+ /* ESTILOS FOOTER */
+ .espacioFooter{
+    border-top: 1px solid grey;
+    margin-top: 10px;
+ }
+ 
+ .estilosFooterIconos {
+    display: flex;
+    gap: 17px;
+ 
+ 
+ }
+ .estilosFooterIconos a {
+    margin-top: 40px;
+ 
+    text-decoration: none;
+    color: black;
+ }
+ .textFooter{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-flow:wrap column;
+    margin-top: 40px;
+    margin-left: 520px;
+    
+    
+   
+ }
+ 
+ 
+ 
+ 
+ .facturaYTakeAway{
+    display: flex;
+    flex-flow: row wrap;
+  justify-content: center;
+  gap: 300px;
+ }
+ .separadorFooter{
+    display: flex;
+    border-top:1px solid rgb(75, 68, 68);
+    max-width: 500px;
+    margin: 20px auto 0  auto;
+ }
+ .finalFooter{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap:20px;
+ } 
