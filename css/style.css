@@ -275,54 +275,37 @@ margin-top: 100px;
    
     
  }  
- /* ESTILOS FOOTER */
- .espacioFooter{
-    border-top: 1px solid grey;
-    margin-top: 10px;
+
+ .gridFooter{
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   grid-template-rows: 0.5fr 0.5fr;
+   border-top: 1px gray solid;
+   margin-left: 40px;
  }
- 
- .estilosFooterIconos {
-    display: flex;
-    gap: 17px;
- 
- 
+
+
+ .iconosReordenamiento{
+   display: none;
  }
- .estilosFooterIconos a {
-    margin-top: 40px;
- 
-    text-decoration: none;
-    color: black;
+ .gridFooter div{
+  margin: 30px;
  }
- .textFooter{
-    margin: 0;
-    text-align: center;
-    display: flex;
-    flex-flow:wrap column;
-    margin-top: 40px;
-    margin-left: 520px;
+ @media (max-width:576px) {
+   .gridFooter{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+   }
+   .iconosRedes{
+      display: none;
+   }
+   .iconosReordenamiento{
+      display: flex;
     
-    
+
+      
+      
+
+   }
    
  }
- 
- 
- 
- 
- .facturaYTakeAway{
-    display: flex;
-    flex-flow: row wrap;
-  justify-content: center;
-  gap: 300px;
- }
- .separadorFooter{
-    display: flex;
-    border-top:1px solid rgb(75, 68, 68);
-    max-width: 500px;
-    margin: 20px auto 0  auto;
- }
- .finalFooter{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    gap:20px;
- } 
