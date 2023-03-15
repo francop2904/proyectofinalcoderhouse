@@ -114,6 +114,7 @@ font-family: 'Tilt Warp';
       background: url(../img/imgcarrusel/imgthree.jpg) center;
         align-items: center;
         height: 240px;
+        background-repeat: no-repeat;
         
         
     }
