@@ -114,7 +114,7 @@ font-family: 'Tilt Warp';
         align-items: center;
     }
     .mainEditIndex h1{
-        font-size: 30px;
+        font-size: 22px;
         padding: 5px;
     }
   
@@ -127,20 +127,7 @@ font-family: 'Tilt Warp';
   background-color:black;
 }
 
-/* @media (min-width:577px) and (max-width:1300px){
-    .carousel-inner img {
-    
-        max-height: 700px;
-    }
-    
-    .carousel-inner{
-     height: 700px;
-    }
-    .carousel .slide{
-        height: 700px;
-        max-height: 700px;
-    }
-} */
+
 .mainNuestrosProductos{
     
       
