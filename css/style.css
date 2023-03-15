@@ -111,6 +111,7 @@ font-family: 'Tilt Warp';
 
     }
     .mainEditIndex{
+      background: url(../img/imgcarrusel/imgthree.jpg) center;
         align-items: center;
     }
     .mainEditIndex h1{
@@ -282,6 +283,16 @@ font-family: 'Tilt Warp';
 
    margin-left: 40px;
  }
+
+
+
+
+   .iconosRedes{
+    
+      padding-top: 20px;
+
+   }
+  
 
 
  .iconosReordenamiento{
