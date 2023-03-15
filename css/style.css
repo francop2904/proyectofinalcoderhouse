@@ -107,12 +107,15 @@ font-family: 'Tilt Warp';
 
 @media screen and (max-width:576px) {
    .barraDeNavegacion a {
-    display: none;
+      font-size: 20px;
 
     }
     .mainEditIndex{
       background: url(../img/imgcarrusel/imgthree.jpg) center;
         align-items: center;
+        height: 240px;
+        
+        
     }
     .mainEditIndex h1{
         font-size: 22px;
