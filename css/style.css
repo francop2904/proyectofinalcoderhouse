@@ -6,24 +6,24 @@
     font-family:'Oswald', sans-serif;
     
     
+    /* ESTILOS DE "INDEX" */
 }
-
-header{
-    background-color:  #850010;
-    color: white;
-}
-header a { 
-    text-decoration: none;
+.enviosGratis{
+   background-color:  #850010;
+   color: white;
+ 
 
 }
-
 .enviosGratisText{
-    color: white;
-    font-size: 17px;
-    padding-top: 5px;
+   color: white;
+   font-size: 17px;
+   padding-top: 5px;
 
 
 }
+
+
+
 
 
 .logotipo {
@@ -34,14 +34,22 @@ header a {
    
 
 }
-.logotipo a  h1{
+.logotipo {
     font-family: 'Tilt Warp';
     color: #850010;
+    margin-top: 1px;
    
     
-
-
-
+}
+.contactoHeader{
+   font-size: 16px;
+  margin-top: 15px;
+}
+@media screen and (max-width:576px) {
+   .contactoHeader{
+      display: none;
+   }
+   
 }
 
 .barraDeNavegacion{
@@ -84,6 +92,30 @@ font-family: 'Tilt Warp';
    
   
 }
+.fontFamilyNuestrasPromosIndex{
+   font-family:'Tilt Warp' ;
+   color: black;
+}
+
+hr{
+   height: 3px;
+   margin-top:45px;
+   background-color: #850010;
+   border-color: #850010;
+   border-radius: 50px;
+   opacity: 10;
+
+}
+.ArticleIndex{
+background-color: rgb(1, 0, 37);
+
+color: white;
+
+}
+
+
+
+
 
 .mainEditIndex h1{
    color: black ;
@@ -91,6 +123,8 @@ font-family: 'Tilt Warp';
    padding: 10px 5px;
    backdrop-filter: blur(5px);
    font-size: 50px;
+   cursor: default;
+
 }
  
 
@@ -133,133 +167,97 @@ font-family: 'Tilt Warp';
   background-color:black;
 }
 
-
+/* ESTILOS DE "PRODUCTOS" */
 .mainNuestrosProductos{
     
-      
-       background-color:#e0ab69;
+      height: 150px;
+   background: rgb(204,156,121);
     
-       color: white;
+       color: rgb(255, 255, 255);
    
  }
  .mainNuestrosProductosTitulo h2{
     font-size: 40px;
   
  }
- .mainNuestrosProductosTitulo img{
-    margin-left: 40px;
- }
- .mainBlackBox{
-    
-      
-    background-color:#e0ab69;
- 
-    color: white;
-
-}
-.mainBlackboxTitulo h2{
- font-size: 50px;
-
-}
-.mainBlackboxTitulo img{
- margin-left: 100px;
-}
-
-
- 
-
- .cardEstilos {
-    border:solid 1px #59473C;
- }
-
  @media (max-width:576px){
-    .mainNuestrosProductos img{
-        width: 60px;
-        height: 60px;
-        margin: 6px;
+   .mainNuestrosProductos img{
+       width: 60px;
+       height: 60px;
+      
 
-    }
-    .mainNuestrosProductosTitulo h2{
-        font-size: 30px;
-       
+   }
+   .mainNuestrosProductosTitulo h2{
+       font-size: 30px;
+       margin-left: 4px;
+      
+   }
+}
 
-    }
-    .mainNuestrosProductosTitulo h4{
-        font-size: 15px;
-        margin-top: 5px;
-    }
+
+
+ .borderCards{
+   border-width: 0;
+
+}
+
+
+ 
+ .bodyCards {
+   cursor: default;
+   
 
  }
-
- .botonComprarProducto{
+ .botonComprarProductoPicadas{
    background-color: rgb(194, 149, 27);
    text-decoration: none;
    color: white;
    border-radius: 30px;
    padding: 8px;
+   
  }
 
 
- /* ESTILOS PAGINA BLACK BOX */
+ /* ESTILOS PAGINA BLACK BOX */ 
+
+
+
  .mainBlackBox{
-    margin-bottom: 20px;
-    color: white;
-    font-size: 25px;
-       font-family: 'Holtwood One SC', serif;
-       display: flex;
-       flex-flow: column wrap;
-       align-items: center;
-       justify-content: center;
-       background-color: rgb(168, 168, 168);
-       height: 145px;
- }
- .mainBlackBox h3{
-    font-size: 20px;
-    display: flex;
-    flex-flow: row wrap;
- }
- .sectionDiferentesBlackBox{
-    display: flex;
-    flex: column ;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 100px;
- }
- .InformacionDeBlackBox{
-    display: flex;
-    justify-content: space-around;
-    margin: 15px 0 15px 0;
- 
- 
-    
- }
+   
+   background:rgb(161,145,137);
+   height: 150px;
+  
+   color:rgb(15,41,102);
+
+}
+
+.mainBlackBoxTitulo h2{
+font-size: 40px;  
+
+}
+
+.botonComprarProductoBlackBox{
+   background-color:rgb(15,41,102) ;
+   text-decoration: none;
+   color: white;
+   border-radius: 30px;
+   padding: 8px;
+}
+@media screen and (max-width:576) {
+   .mainBlackBox img{
+      width: 60px;
+      height: 60px;
+
+   }
+   .mainBlackBoxTitulo{
+      font-size: 30px;
+   }
+   
+   
+}
+
  /* ESTILOS DADOS A LA PAGINA NOSOTROS */
- .mainNosotros{
-    margin-bottom: 20px;
-    color: white;
-    font-size: 25px;
-       font-family: 'Holtwood One SC', serif;
-       display: flex;
-       flex-flow: column wrap;
-       align-items: center;
-       justify-content: center;
-       background-color: rgb(0, 0, 0);
-       height: 145px;
- 
- }
- .mainNosotros h3{
-    font-size: 20px;
-    display: flex;
-    flex-flow: row wrap;
- 
- }
- .nuestraHistoriaNosotros h1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
- 
- 
- }
+
  .tituloDondeNosEncontrasMapa{
        margin-left: 100px;
     margin-top: 40px;
@@ -268,18 +266,31 @@ font-family: 'Tilt Warp';
     box-sizing: border-box;
  }
 
- /* ESTILOS CONTACTO */
- .tituloContactoPreguntasF{
-    text-align: center   ;
+ .nuestraHistoriaNosotros{
+
+color: black;
  }
- .sectionPreguntasFrecuentes{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   align-items: center;
-   
-    
- }  
+ /* ESTILOS CONTACTO */
+.sectionPageContacto{
+   color:black;
+}
+.sectionPageContacto h3{
+color:#850010;
+}
+
+.formularioContacto{
+   background-color:#850010;
+   color: white; 
+   border: 10px solid #850010;
+   border-radius: 10px;
+}
+.btomForm{
+   background-color: white;
+   border: none;
+   padding: 10px;
+   border-radius: 13px;
+}
+ /* FOOTER ESTILOS */
 
  .gridFooter{
    display: grid;
@@ -292,35 +303,24 @@ font-family: 'Tilt Warp';
 
 
 
-   .iconosRedes{
-    
-      padding-top: 20px;
-
-   }
-  
 
 
- .iconosReordenamiento{
-   display: none;
- }
+
+
  .gridFooter div{
   margin: 30px;
+ }
+
+
+ .footerContainerFinal{
+   background-color: rgb(1, 0, 37) ;
+   height: 300px;
  }
  @media (max-width:576px) {
    .gridFooter{
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
    }
-   .iconosRedes{
-      display: none;
-   }
-   .iconosReordenamiento{
-      display: flex;
-    
-
-      
-      
-
-   }
+ 
    
  }
