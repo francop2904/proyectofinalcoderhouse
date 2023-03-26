@@ -49,12 +49,12 @@
     background: url(../img/imgthree.png) center;
     background-size: cover;
     h1{
-        color: black;
+      @include textos (50px,black,default);
         border: 3px black solid;
         padding: 10px 5px;
         backdrop-filter: blur(5px);
-        font-size: 50px;
-        cursor: default;
+       
+        
       }
     }
   

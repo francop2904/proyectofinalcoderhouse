@@ -1,0 +1,6 @@
+@mixin textos ($font-s-textos,$c-textos,$cursor-textos){
+    font-size: $font-s-textos;
+    color: $c-textos;
+    text-decoration: $cursor-textos;
+
+}
