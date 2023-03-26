@@ -1,0 +1,31 @@
+/* ESTILOS CONTACTO */
+.stylesPageContacto{
+    color:black;
+    h3{
+      color: $bgcolorCharcutier;
+    }
+    ul{
+      list-style: none;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      background-color: $bgcolorCharcutier;
+      
+
+    }
+ }
+
+ 
+ .formularioContacto{
+    background-color:#850010;
+    color: white; 
+    border: 10px solid #850010;
+    border-radius: 10px;
+ }
+ .btomForm{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 13px;
+ }

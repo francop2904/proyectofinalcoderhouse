@@ -1,0 +1,118 @@
+// ESTILOS INDEX
+
+.enviosGratis {
+    background-color:$bgcolorCharcutier;
+    color: white;
+    
+        .enviosGratisText{
+            color: white;
+          font-size: 17px;
+        padding-top: 5px; 
+        }
+    
+  }
+  
+.logotipo{
+    background-color: map-get($map: $logos, $key:bg-logo );
+    font-family: map-get($map: $logos, $key:font-family );
+    color: map-get($map: $logos, $key:bg-color );
+    margin-top: map-get($map: $logos, $key: mt);
+}
+  
+  .contactoHeader {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .navResponsive {
+    font-size: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+  }
+  
+  .barraDeNavegacion {
+    background-color: white;
+    font-size: 30px;
+   a {
+    text-decoration: none;
+    color: black;
+    }
+  }
+
+  
+  .sectionImgPrincipal{
+    @extend %dflex;
+    font-family: "Tilt Warp";
+    height: 100vh;
+    background: url(../img/imgthree.png) center;
+    background-size: cover;
+    h1{
+        color: black;
+        border: 3px black solid;
+        padding: 10px 5px;
+        backdrop-filter: blur(5px);
+        font-size: 50px;
+        cursor: default;
+      }
+    }
+  
+  
+
+  
+  .fontFamilyNuestrasPromosIndex {
+    font-family: "Tilt Warp";
+    color: black;
+  }
+  
+  hr {
+    height: 3px;
+    margin-top: 45px;
+    background-color:$bgcolorCharcutier;
+    border-color: $bgcolorCharcutier;
+    border-radius: 50px;
+    opacity: 10;
+  }
+  
+  .ArticleIndex {
+    background-color: rgb(1, 0, 37);
+    color: white;
+  }
+  
+  
+  
+
+
+  
+  
+  
+  @media screen and (max-width: 576px) {
+    .barraDeNavegacion {
+      display: none;
+    }
+    .contactoHeader {
+      display: none;
+    }
+    .sectionImgPrincipal {
+      background: url(../img/imgcarrusel/imgthree.jpg) center;
+      align-items: center;
+      height: 240px;
+      background-repeat: no-repeat;
+    }
+    .sectionImgPrincipal h1 {
+      font-size: 30px;
+      padding: 5px;
+    }
+  }
+
+
+  @media screen and (min-width: 576px) {
+    .navResponsive {
+      display: none;
+    }
+    .navResponsive a {
+      text-decoration: none;
+    }
+  }
+  

@@ -1,0 +1,37 @@
+/* ESTILOS PAGINA BLACK BOX */ 
+
+.mainBlackBox{
+   
+    background:rgb(161,145,137);
+    
+   
+    color:rgb(15,41,102);
+ 
+ }
+ 
+ .mainBlackBoxTitulo h2{
+ font-size: 40px;  
+ 
+ }
+ 
+ .botonComprarProductoBlackBox{
+    background-color:rgb(15,41,102) ;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    padding: 8px;
+ }
+ @media screen and (max-width:576) {
+    .mainBlackBox img{
+       width: 60px;
+       height: 60px;
+ 
+    }
+    .mainBlackBoxTitulo{
+       font-size: 30px;
+    }
+   
+    
+    
+ }
+ 

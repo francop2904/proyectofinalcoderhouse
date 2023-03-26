@@ -1,0 +1,61 @@
+// BASE
+@import './base/variables';
+@import './base/listas';
+@import './base/mapas';
+@import './base/extend';
+
+// COMPONENTES
+@import './components/index';
+@import './components/productos';
+@import './components/blackbox';
+@import './components/nosotros';
+@import './components/contacto';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Tilt Warp'; */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Oswald', sans-serif;
+}
+ /* FOOTER ESTILOS */
+
+ .gridFooter{
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   grid-template-rows: 0.5fr 0.5fr;
+
+   margin-left: 40px;
+ }
+
+
+ .gridFooter div{
+  margin: 30px;
+ }
+
+
+ .footerContainerFinal{
+   background-color: rgb(1, 0, 37) ;
+   height: 300px;
+ }
+ @media (max-width:576px) {
+   .gridFooter{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+   }
+ 
+   
+ }
